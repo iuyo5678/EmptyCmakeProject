@@ -17,7 +17,6 @@ function getdir(){
         if test -f $file
         then
             sed -i '' -e "s/EmptyCMakeProject/${2}/g" $file
-            echo $file
         else
             getdir $file $2
         fi
@@ -25,3 +24,7 @@ function getdir(){
 }
 
 getdir $HOME/..   $1
+
+rm -rf $HOME/../.git
+
+echo "Succeeded"
