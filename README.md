@@ -1,17 +1,17 @@
-## 简介
+## Intro
 
-自己的一个简单的CMake空项目，方便做一些小项目，做测试
+a very simple empty CMake project， easy to do small projects and do tests.
+
+Assume your nproject name is testCmake
 
 
-1. clone：
+### useage
 
 ``` bash
-
-git clone https://github.com/iuyo5678/EmptyCmakeProject.git project_name
+# clone to project dir ：
+git clone https://github.com/iuyo5678/EmptyCmakeProject.git testCmake
+cd testCmake
+./tools/setproject.sh  testCmake
 ```
-2. cd project_name
-
-3. ./tools/setproject.sh  $project_name
-
 
 enjoy it!
